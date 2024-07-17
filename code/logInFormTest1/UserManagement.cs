@@ -183,16 +183,12 @@ namespace logInFormTest1
                 {
                     // SMTP sunucu bilgileri
                     int smtpPort = 587;
-                    //string smtpServer = "smtp.office365.com";
-                    //string smtpUsername = "norplychngepswrd@hotmail.com";
-                    //string smtpPassword = "OopProjectTest1";
-                    string smtpServer = "smtp-mail.outlook.com";
-                    string smtpUsername = "oopproje0@hotmail.com";
-                    string smtpPassword = "oop_Proje0.2";
+                    string smtpServer = "your-mail-server";
+                    string smtpUsername = "your-mail";
+                    string smtpPassword = "your-password";
 
                     // gönderici ve alıcı bilgileri
-                    //string fromAddress = "norplychngepswrd@hotmail.com";
-                    string fromAddress = "oopproje0@hotmail.com";
+                    string fromAddress = "your-mail";
                     string toAddress = LogInMenu.users[progressUser].Email;
                     string subject = "New Password";
                     string body = "New password : " + newPassword;
